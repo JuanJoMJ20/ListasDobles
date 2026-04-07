@@ -57,9 +57,9 @@ class PCMasterApp:
         tk.Button(btn_frame, text="RETIRAR DE TIENDA", command=self.delete_pc, bg="#b91c1c", **btn_config).pack(side=tk.RIGHT, padx=60)
 
     def load_data(self):
-        self.inventory.insert_at_end(1, "ASUS ROG ZEPHYRUS", "Intel i9-13900H, RTX 4090, 64GB DDR5, 2TB NVMe", "$4,200")
-        self.inventory.insert_at_end(2, "RAZER BLADE 16", "Intel i9, RTX 4080, OLED 240Hz, 32GB RAM", "$3,599")
-        self.inventory.insert_at_end(3, "CORSAIR VENGEANCE PC", "Ryzen 7 7800X3D, RTX 4070 Ti, Liquid Cooling", "$2,850")
+        self.inventory.insert_at_end(1, "ASUS ROG ZEPHYRUS", "Intel i9-13900H, RTX 4090, 64GB DDR5, 2TB NVMe", "$16,000,000")
+        self.inventory.insert_at_end(2, "RAZER BLADE 16", "Intel i9, RTX 4080, OLED 240Hz, 32GB RAM", "$14,000,000")
+        self.inventory.insert_at_end(3, "CORSAIR VENGEANCE PC", "Ryzen 7 7800X3D, RTX 4070 Ti, Liquid Cooling", "$8,850,000")
 
     def refresh_display(self):
         if self.inventory.current:
